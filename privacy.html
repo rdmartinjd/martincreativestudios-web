@@ -21,35 +21,53 @@
 
 <div class="prose">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: March 30, 2026</p>
+  <p class="updated">Last updated: July 22, 2026</p>
 
   <p>Card Catalog ("the App") is developed and published by Martin Creative Studios ("we," "us," or "our"). This Privacy Policy explains how the App handles your information.</p>
 
   <h2>Summary</h2>
-  <p>Card Catalog does not collect, transmit, sell, or share any personal information. Your library data is stored exclusively on your device and, if you have iCloud enabled, in your personal iCloud account. We have no access to your data.</p>
+  <p>Martin Creative Studios does not operate an account or library-data server for Card Catalog, and the App contains no advertising, analytics, or tracking SDKs. Your library is stored on your devices and, when enabled, in your private iCloud database. When you explicitly request metadata or open an external link, the limited information needed for that request is sent directly from your device to the selected third-party service.</p>
 
-  <h2>Information We Do Not Collect</h2>
+  <h2>Information Martin Creative Studios Does Not Collect Through the App</h2>
   <ul>
-    <li>We do not collect your name, email address, or any other identifying information.</li>
-    <li>We do not use analytics, crash-reporting services, or advertising SDKs.</li>
-    <li>We do not track your usage of the App.</li>
-    <li>We do not share any data with third parties.</li>
+    <li>The App does not require a Card Catalog account, name, email address, or profile.</li>
+    <li>The App does not include advertising, analytics, tracking, or third-party crash-reporting SDKs.</li>
+    <li>Martin Creative Studios does not receive a copy of your catalog, notes, ratings, lending records, cover images, imports, or exports.</li>
+    <li>Martin Creative Studios does not sell personal information.</li>
   </ul>
 
-  <h2>Data You Enter</h2>
-  <p>All library data you create in Card Catalog — titles, authors, ratings, notes, and any other fields — is stored locally on your device using Apple's SwiftData framework. If you have iCloud Drive and iCloud sync enabled on your device, this data is also stored in your personal iCloud account via Apple's CloudKit service. This sync is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. We do not have access to your iCloud data.</p>
+  <h2>Your Library and iCloud</h2>
+  <p>Library records you create in Card Catalog, including titles, creators, ratings, notes, lending information, and covers, are stored locally using Apple's SwiftData framework. When iCloud is available for the App, Apple CloudKit synchronizes those records through your private iCloud database. Apple processes iCloud data under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Martin Creative Studios does not operate a separate synchronization server and does not receive your private CloudKit records.</p>
 
   <h2>Camera Access</h2>
-  <p>The App requests access to your device's camera solely for the purpose of scanning barcodes (ISBN, UPC, and EAN codes) to look up media metadata. No images or video are stored, transmitted, or retained by the App. Camera access is optional — you can add items manually without using the camera.</p>
+  <p>The App requests camera access only to recognize ISBN, UPC, and EAN barcodes. Camera frames are processed for recognition and are not saved to your library or sent to Martin Creative Studios. Camera access is optional; you can enter identifiers and items manually.</p>
 
   <h2>Third-Party Metadata Services</h2>
-  <p>When you scan a barcode or search for an item, the App queries publicly available metadata services (such as Open Library, Google Books, MusicBrainz, and iTunes Search) to retrieve information about that item. These queries include the barcode or search term you entered but do not include any personal information. These services are governed by their own privacy policies.</p>
+  <p>Metadata requests occur only after you scan or enter an identifier, run a search, select a result, or ask the App to refresh metadata. For books, the App may send an ISBN, title, creator name, or selected record key to <a href="https://archive.org/about/terms.php">Open Library, an Internet Archive service</a>. For book classification and subject enrichment, the App may send an LCCN obtained from the selected Open Library record, or an ISBN when needed, to the <a href="https://www.loc.gov/legal/">Library of Congress</a>. A cover request may also send the selected Open Library cover identifier to the Open Library cover service.</p>
+  <p>For a music lookup, the App may send a UPC, artist and album search text, or an exact selected release identifier to <a href="https://metabrainz.org/privacy">MusicBrainz, operated by MetaBrainz</a>. If cover fetching is enabled and the App has resolved one exact MusicBrainz release, it may send that release identifier to the <a href="https://coverartarchive.org/">Cover Art Archive</a> and request one approved front-cover thumbnail. Cover Art Archive images are delivered in partnership with the <a href="https://archive.org/about/terms.php">Internet Archive</a>. The App does not use that service for release-group browsing, original-size image retrieval, or background harvesting.</p>
+  <p>For an explicit movie-barcode lookup, the App may send the UPC or EAN and its canonical equivalent directly to the <a href="https://catalogue.bnf.fr/conditions.do">Bibliothèque nationale de France (BnF)</a>, the <a href="https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/SRU/sru_node.html">German National Library (DNB)</a>, and <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikidata, operated by the Wikimedia Foundation</a>. BnF and DNB are queried for an exact physical-edition record; Wikidata is queried for sparse exact edition or related-work facts. A movie title search or exact-detail request may also send title or person text, an IMDb identifier, or Wikidata entity identifiers to Wikidata. For a comic lookup, the App may send a series, issue number, optional year, or stored issue identifier to the <a href="https://www.comics.org/">Grand Comics Database</a>.</p>
+  <p>Those services receive the request directly from your device and may also receive ordinary network information such as your IP address, request time, and App user-agent string. They process that information under their own policies. Card Catalog does not send your notes, ratings, lending records, full library, Apple ID, or payment information with a metadata request.</p>
+
+  <h2>User-Selected Cover URLs</h2>
+  <p>If you ask Card Catalog to load a cover from a URL, your device contacts the host you selected. That host receives the requested URL and ordinary network information. Card Catalog validates and downloads the image directly to your device; Martin Creative Studios does not proxy or receive it.</p>
+
+  <h2>Amazon Affiliate Links</h2>
+  <p>"Buy on Amazon" controls are paid affiliate links and include Martin Creative Studios' public Associate tag. When you tap one, Amazon receives the product identifier or search terms needed to open the destination, the Associate tag, and ordinary browser or network information. Amazon handles that activity under its <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ">Privacy Notice</a>. As an Amazon Associate I earn from qualifying purchases.</p>
+
+  <h2>Purchases</h2>
+  <p>Apple processes App Store purchases and payment information. Card Catalog receives StoreKit entitlement information needed to determine whether Lifetime Access is unlocked; it does not receive your payment-card details.</p>
+
+  <h2>Support Communications</h2>
+  <p>If you email support, Martin Creative Studios receives the address, message, and attachments you choose to send. We use that information to respond and retain it only as reasonably needed for support, recordkeeping, and legal obligations. Do not send a library export unless it is necessary for your request and you are comfortable sharing its contents.</p>
+
+  <h2>Deletion and Export</h2>
+  <p>You can export your library from the App. You can also delete individual records, reset the library, or delete the App. Deletions synchronized through iCloud are subject to Apple's processing and retention practices. Files you export remain wherever you choose to save or share them.</p>
 
   <h2>Children's Privacy</h2>
   <p>Card Catalog is not directed at children under the age of 13 and does not knowingly collect personal information from children.</p>
 
   <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Any changes will be posted at this URL. Continued use of the App after changes are posted constitutes acceptance of the updated policy.</p>
+  <p>We may update this Privacy Policy when the App, its providers, or applicable requirements change. The current version and update date will be posted at this URL.</p>
 
   <h2>Contact</h2>
   <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:support@martinorganization.com">support@martinorganization.com</a>.</p>
@@ -61,6 +79,7 @@
     <a href="support.html">Support</a>
     <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
   </div>
+  <p>As an Amazon Associate I earn from qualifying purchases.</p>
   <p>Copyright &copy; 2026 Martin Creative Studios. All rights reserved.</p>
 </footer>
 

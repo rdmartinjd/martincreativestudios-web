@@ -1,121 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Card Catalog — Martin Creative Studios</title>
-  <meta name="description" content="Card Catalog is a personal media library manager for books, music, movies, and comics, with barcode entry, approved metadata sources, iCloud sync, and robust import and export." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="app-icon.png" type="image/png" />
-</head>
-<body>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Martin Creative Studios — Thoughtful software for what matters</title><meta name="description" content="Meet Martin Creative Studios and our first app, Card Catalog: a personal library for books, movies, music, and comics.">
+<link rel="canonical" href="https://martincreativestudios.com/"><meta name="theme-color" content="#1f305c">
+<link rel="stylesheet" href="style.css?v=8023e0dbd190">
+<link rel="icon" href="assets/card-catalog.png" type="image/png"></head>
+<body><a class="skip" href="#main">Skip to content</a>
 
-<nav>
-  <a class="brand" href="/">Martin Creative Studios</a>
-  <div class="nav-links">
-    <a href="#features">Features</a>
-    <a href="#pricing">Pricing</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-  </div>
-</nav>
-
-<!-- Hero -->
-<section class="hero">
-  <img src="app-icon.png" alt="Card Catalog app icon" class="app-icon" />
-  <h1>Card Catalog</h1>
-  <p>Your entire collection — books, music, movies, and comics — beautifully organised in one place.</p>
-  <div class="badge-row">
-    <!-- Replace href with your real App Store link once the app is live -->
-    <a href="#" aria-label="Download on the App Store">
-      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" />
-    </a>
-  </div>
-  <p class="hero-platforms">Available for iPhone, iPad &amp; Mac</p>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="index.html" aria-label="Martin Creative Studios home"><img src="assets/mcs-logo.png" width="3500" height="908" alt="Martin Creative Studios"></a>
+<nav aria-label="Studio navigation"><a href="index.html#apps">Our apps</a><a href="index.html#studio">The studio</a><a href="index.html#contact">Contact</a></nav>
+</div></header><main id="main">
+<section class="wrap studio-intro">
+  <div><h1>Thoughtful software for the things that matter.</h1><div class="gold-rule" aria-hidden="true"></div></div>
+  <p class="lead">Martin Creative Studios builds focused, privacy-respecting apps for Apple devices. Meet Card Catalog, our first app.</p>
 </section>
-
-<!-- Features -->
-<section class="features" id="features">
-
-  <div class="feature">
-    <div class="icon">📚</div>
-    <h3>Books, Music, Movies &amp; Comics</h3>
-    <p>One app for every type of media you collect. Each type has its own tailored fields and metadata sources.</p>
+<section class="featured-app navy-band" id="apps" aria-labelledby="featured-title">
+  <div class="wrap">
+    <div class="featured-grid">
+      <div class="featured-copy"><p class="eyebrow">Our first app · Coming soon</p><h2 id="featured-title">Card Catalog</h2>
+      <p class="featured-tagline">A place for everything you love to collect.</p>
+      <p class="featured-description">Books, movies, music, and comics. One personal catalog, built for the collection you have—and the one you’re still discovering.</p>
+      <a class="button button-light" href="card-catalog/index.html">Explore Card Catalog <span aria-hidden="true">→</span></a></div>
+      <a class="app-art" href="card-catalog/index.html" aria-label="Explore Card Catalog"><img src="assets/card-catalog.png" width="2048" height="2048" alt="Card Catalog’s wooden library-card cabinet app icon" fetchpriority="high"></a>
+    </div>
+    <ul class="media-types" aria-label="Media supported by Card Catalog"><li>Books</li><li>Movies</li><li>Music</li><li>Comics</li></ul>
   </div>
-
-  <div class="feature">
-    <div class="icon">📷</div>
-    <h3>Barcode Scanning</h3>
-    <p>Scan an ISBN, UPC, or EAN to enter the identifier quickly. Card Catalog fills available book, music, movie, and comic fields from its active catalog sources, and every field remains editable.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">☁️</div>
-    <h3>iCloud Sync</h3>
-    <p>Your library lives in iCloud and stays in sync across all your Apple devices. Scan on iPhone, see it instantly on your Mac.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">🔍</div>
-    <h3>Smart Lists</h3>
-    <p>Create saved searches that update automatically. Filter by 27 different fields — title, author, year, rating, condition, read status, and more.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">📤</div>
-    <h3>Import &amp; Export</h3>
-    <p>Import from Booxter, Delicious Library, Goodreads, LibraryThing, and CLZ. Export to CSV or HTML at any time.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">🔒</div>
-    <h3>Private by Design</h3>
-    <p>No Card Catalog account, ads, analytics, or tracking SDKs. Your library stays on your devices and in your private iCloud database; requested lookup terms go only to the catalog source needed to answer them.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">📖</div>
-    <h3>Lending Tracker</h3>
-    <p>Mark items as lent out and record who has them. Never lose track of a borrowed book or movie again.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">🛒</div>
-    <h3>Buy on Amazon</h3>
-    <p>Every item can open a paid Amazon search or product link. Martin Creative Studios may earn a commission from qualifying purchases at no additional cost to you.</p>
-  </div>
-
-  <div class="feature">
-    <div class="icon">🖨️</div>
-    <h3>Print Your Library</h3>
-    <p>Print a formatted list of any collection or Smart List directly from the app — great for insurance records or sharing with friends.</p>
-  </div>
-
 </section>
-
-<!-- Pricing -->
-<section class="section" id="pricing">
-  <h2>Pricing</h2>
-  <p>Card Catalog is free to download. You can catalog up to 50 items for free — no time limit, no credit card required. When your collection grows beyond 50 items, a one-time <strong>$29.99 Lifetime Unlock</strong> gives you unlimited items forever, on all your devices.</p>
-  <p>No subscriptions. No recurring fees. Pay once, own it forever.</p>
+<section id="studio" class="wrap studio-section">
+  <div><h2>Useful by design.<br>Personal by nature.</h2><div class="gold-rule" aria-hidden="true"></div></div>
+  <div><p>We build thoughtful software for everyday life: focused tools that help you organize what matters, without making your information the product.</p>
+  <p>Card Catalog is our first app. It brings that philosophy to the shelves, collections, and discoveries that make a home your own.</p></div>
 </section>
-
-<!-- About the developer -->
-<section class="section">
-  <h2>About Martin Creative Studios</h2>
-  <p>Martin Creative Studios is an independent software studio dedicated to building thoughtful, privacy-respecting apps for Apple platforms. Card Catalog is our first app.</p>
-  <p>Questions or feedback? <a href="mailto:support@martinorganization.com">support@martinorganization.com</a></p>
-</section>
-
-<footer>
-  <div class="footer-links">
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="support.html">Support</a>
-    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
-  </div>
-  <p>As an Amazon Associate I earn from qualifying purchases.</p>
-  <p>Copyright &copy; 2026 Martin Creative Studios. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
+<section class="wrap contact-section" id="contact"><div><h2>A direct line to the studio.</h2><p>Questions about our apps? An idea you’d like to share? We’d like to hear from you.</p></div><div><a class="contact-link" href="mailto:support@martinorganization.com">support@martinorganization.com</a><a class="text-link" href="card-catalog/support.html">Card Catalog support &amp; FAQs <span aria-hidden="true">→</span></a></div></section>
+</main>
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><div><p class="footer-name">Martin Creative Studios</p><p class="small">Thoughtful software for the things that matter.</p></div><div class="footer-links"><a href="card-catalog/support.html">Card Catalog support</a><a href="card-catalog/privacy.html">App privacy</a><a href="index.html#contact">Contact</a></div></div><p class="copyright">© 2026 Martin Creative Studios. All rights reserved.</p></div></footer>
+</body></html>
